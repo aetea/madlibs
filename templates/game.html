@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's play a game!</title>
+</head>
+<body>
+    <form action="/madlib">
+        <!-- ask for person, colour, noun, adjective -->
+        <label>Enter a name: </label>
+        <input type="text" name="name">
+        <br>
+        
+        Please pick a colour
+        <select name="colour">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+        </select><br>
+
+        <label>Enter a noun: </label>
+        <input type="text" name="noun"><br>
+
+        Pick an adjective: 
+        <input type="radio" name="adj" value="shiny">
+        <label>shiny</label>
+        <input type="radio" name="adj" value="hairy">
+        <label>hairy</label>
+        <input type="radio" name="adj" value="bright">
+        <label>bright</label>
+        <input type="radio" name="adj" value="smooth">
+        <label>smooth</label><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
