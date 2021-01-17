@@ -1,0 +1,11 @@
+h1 {
+    color: #00fff3;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 50px;
+    border-style: double;
+    padding: 20px;
+}
+

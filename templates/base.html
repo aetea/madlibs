@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/static/madlibs.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Goodbye</title>
+    <title>{% block title %}TITLE GOES HERE{% endblock %}</title>
 </head>
 <body>
-    <h1>Goodbye! Hope to see you soon.</h1>
+    {% block content %}BODY CONTENT GOES HERE{% endblock %}
 </body>
 </html>
